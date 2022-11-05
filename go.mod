@@ -1,4 +1,4 @@
-module github.com/Pranc1ngPegasus/golang-template
+module github.com/Pranc1ngPegasus/middlechain
 
 go 1.19
 
