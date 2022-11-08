@@ -9,5 +9,5 @@ func Chain(h http.Handler, m ...func(http.Handler) http.Handler) http.Handler {
 		return h
 	}
 
-	return m[0](Chain(h, m[1:cap(m)]...))
+	return m[0](Chain(h, m[1:]...))
 }
